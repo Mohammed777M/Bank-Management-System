@@ -1,0 +1,265 @@
+2025-09-05 21:46:29,486 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-05 21:46:29,487 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-05 21:46:29,488 [INFO]  * Restarting with stat
+2025-09-05 21:46:30,005 [WARNING]  * Debugger is active!
+2025-09-05 21:46:30,007 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 21:47:31,397 [INFO] 127.0.0.1 - - [05/Sep/2025 21:47:31] "GET / HTTP/1.1" 200 -
+2025-09-05 21:54:33,791 [INFO] 127.0.0.1 - - [05/Sep/2025 21:54:33] "GET /accounts HTTP/1.1" 200 -
+2025-09-05 21:58:08,145 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 21:58:08,201 [INFO]  * Restarting with stat
+2025-09-05 21:58:49,733 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-05 21:58:49,733 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-05 21:58:49,734 [INFO]  * Restarting with stat
+2025-09-05 21:58:50,176 [WARNING]  * Debugger is active!
+2025-09-05 21:58:50,177 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 21:58:55,502 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 21:58:55,541 [INFO]  * Restarting with stat
+2025-09-05 21:59:10,070 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-05 21:59:10,070 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-05 21:59:10,071 [INFO]  * Restarting with stat
+2025-09-05 21:59:10,510 [WARNING]  * Debugger is active!
+2025-09-05 21:59:10,512 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:05:35,451 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:05:35,502 [INFO]  * Restarting with stat
+2025-09-05 22:05:36,463 [WARNING]  * Debugger is active!
+2025-09-05 22:05:36,466 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:07:21,386 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\models\\account.py', reloading
+2025-09-05 22:07:21,428 [INFO]  * Restarting with stat
+2025-09-05 22:07:21,906 [WARNING]  * Debugger is active!
+2025-09-05 22:07:21,909 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:08:07,887 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-05 22:08:07,887 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-05 22:08:07,888 [INFO]  * Restarting with stat
+2025-09-05 22:08:08,365 [WARNING]  * Debugger is active!
+2025-09-05 22:08:08,367 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:08:29,732 [INFO] 127.0.0.1 - - [05/Sep/2025 22:08:29] "GET / HTTP/1.1" 200 -
+2025-09-05 22:08:35,050 [INFO] 127.0.0.1 - - [05/Sep/2025 22:08:35] "GET / HTTP/1.1" 200 -
+2025-09-05 22:09:09,225 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:09,270 [INFO]  * Restarting with stat
+2025-09-05 22:09:09,415 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:09,468 [INFO]  * Restarting with stat
+2025-09-05 22:09:09,931 [WARNING]  * Debugger is active!
+2025-09-05 22:09:09,933 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:09,977 [WARNING]  * Debugger is active!
+2025-09-05 22:09:09,980 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:15,291 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:15,333 [INFO]  * Restarting with stat
+2025-09-05 22:09:15,341 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:15,391 [INFO]  * Restarting with stat
+2025-09-05 22:09:15,851 [WARNING]  * Debugger is active!
+2025-09-05 22:09:15,853 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:15,962 [WARNING]  * Debugger is active!
+2025-09-05 22:09:15,965 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:20,179 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:20,221 [INFO]  * Restarting with stat
+2025-09-05 22:09:20,231 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:20,278 [INFO]  * Restarting with stat
+2025-09-05 22:09:20,801 [WARNING]  * Debugger is active!
+2025-09-05 22:09:20,804 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:20,871 [WARNING]  * Debugger is active!
+2025-09-05 22:09:20,874 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:33,475 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:33,497 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:33,527 [INFO]  * Restarting with stat
+2025-09-05 22:09:33,550 [INFO]  * Restarting with stat
+2025-09-05 22:09:34,051 [WARNING]  * Debugger is active!
+2025-09-05 22:09:34,053 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:34,156 [WARNING]  * Debugger is active!
+2025-09-05 22:09:34,158 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:42,513 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:42,557 [INFO]  * Restarting with stat
+2025-09-05 22:09:42,610 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:42,657 [INFO]  * Restarting with stat
+2025-09-05 22:09:43,086 [WARNING]  * Debugger is active!
+2025-09-05 22:09:43,088 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:43,164 [WARNING]  * Debugger is active!
+2025-09-05 22:09:43,166 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:47,375 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:47,414 [INFO]  * Restarting with stat
+2025-09-05 22:09:47,431 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:47,476 [INFO]  * Restarting with stat
+2025-09-05 22:09:47,937 [WARNING]  * Debugger is active!
+2025-09-05 22:09:47,939 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:48,109 [WARNING]  * Debugger is active!
+2025-09-05 22:09:48,111 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:50,133 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:50,177 [INFO]  * Restarting with stat
+2025-09-05 22:09:50,282 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:50,330 [INFO]  * Restarting with stat
+2025-09-05 22:09:50,691 [WARNING]  * Debugger is active!
+2025-09-05 22:09:50,693 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:50,964 [WARNING]  * Debugger is active!
+2025-09-05 22:09:50,966 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:53,925 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:53,966 [INFO]  * Restarting with stat
+2025-09-05 22:09:54,205 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:09:54,258 [INFO]  * Restarting with stat
+2025-09-05 22:09:54,485 [WARNING]  * Debugger is active!
+2025-09-05 22:09:54,487 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:09:54,761 [WARNING]  * Debugger is active!
+2025-09-05 22:09:54,764 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:10:00,060 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:10:00,106 [INFO]  * Restarting with stat
+2025-09-05 22:10:00,558 [WARNING]  * Debugger is active!
+2025-09-05 22:10:00,560 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:10:00,848 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:10:00,887 [INFO]  * Restarting with stat
+2025-09-05 22:10:01,330 [WARNING]  * Debugger is active!
+2025-09-05 22:10:01,332 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:10:26,485 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:10:26,527 [INFO]  * Restarting with stat
+2025-09-05 22:10:26,765 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:10:26,824 [INFO]  * Restarting with stat
+2025-09-05 22:10:27,041 [WARNING]  * Debugger is active!
+2025-09-05 22:10:27,043 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:10:27,361 [WARNING]  * Debugger is active!
+2025-09-05 22:10:27,362 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:10:54,310 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:10:54,355 [INFO]  * Restarting with stat
+2025-09-05 22:10:54,591 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:10:54,644 [INFO]  * Restarting with stat
+2025-09-05 22:10:54,836 [WARNING]  * Debugger is active!
+2025-09-05 22:10:54,838 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:10:55,218 [WARNING]  * Debugger is active!
+2025-09-05 22:10:55,219 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:11:00,180 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:11:00,227 [INFO]  * Restarting with stat
+2025-09-05 22:11:00,570 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:11:00,635 [INFO]  * Restarting with stat
+2025-09-05 22:11:00,757 [WARNING]  * Debugger is active!
+2025-09-05 22:11:00,759 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:11:01,138 [WARNING]  * Debugger is active!
+2025-09-05 22:11:01,140 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:11:05,412 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:11:05,453 [INFO]  * Restarting with stat
+2025-09-05 22:11:05,900 [WARNING]  * Debugger is active!
+2025-09-05 22:11:05,902 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:11:06,093 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:11:06,133 [INFO]  * Restarting with stat
+2025-09-05 22:11:06,591 [WARNING]  * Debugger is active!
+2025-09-05 22:11:06,593 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:11:10,158 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:11:10,207 [INFO]  * Restarting with stat
+2025-09-05 22:11:10,690 [WARNING]  * Debugger is active!
+2025-09-05 22:11:10,692 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:11:10,853 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:11:10,895 [INFO]  * Restarting with stat
+2025-09-05 22:11:11,347 [WARNING]  * Debugger is active!
+2025-09-05 22:11:11,349 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:11:12,479 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:11:12,522 [INFO]  * Restarting with stat
+2025-09-05 22:11:12,862 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:11:12,911 [INFO]  * Restarting with stat
+2025-09-05 22:11:12,976 [WARNING]  * Debugger is active!
+2025-09-05 22:11:12,978 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:11:13,370 [WARNING]  * Debugger is active!
+2025-09-05 22:11:13,373 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:11:14,121 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:11:14,173 [INFO]  * Restarting with stat
+2025-09-05 22:11:14,510 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:11:14,551 [INFO]  * Restarting with stat
+2025-09-05 22:11:14,768 [WARNING]  * Debugger is active!
+2025-09-05 22:11:14,771 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:11:15,024 [WARNING]  * Debugger is active!
+2025-09-05 22:11:15,026 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 22:58:57,105 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:58:57,107 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-05 22:58:57,186 [INFO]  * Restarting with stat
+2025-09-05 22:58:57,186 [INFO]  * Restarting with stat
+2025-09-05 23:19:36,407 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-05 23:19:36,408 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-05 23:19:36,409 [INFO]  * Restarting with stat
+2025-09-05 23:19:36,837 [WARNING]  * Debugger is active!
+2025-09-05 23:19:36,839 [INFO]  * Debugger PIN: 686-812-825
+2025-09-05 23:24:12,975 [INFO] 127.0.0.1 - - [05/Sep/2025 23:24:12] "GET /accounts HTTP/1.1" 200 -
+2025-09-05 23:24:52,451 [INFO] 127.0.0.1 - - [05/Sep/2025 23:24:52] "GET / HTTP/1.1" 200 -
+2025-09-05 23:31:41,229 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\models\\account.py', reloading
+2025-09-05 23:31:41,268 [INFO]  * Restarting with stat
+2025-09-06 10:22:15,370 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-06 10:22:15,370 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-06 10:22:15,372 [INFO]  * Restarting with stat
+2025-09-06 10:22:15,823 [WARNING]  * Debugger is active!
+2025-09-06 10:22:15,829 [INFO]  * Debugger PIN: 686-812-825
+2025-09-06 10:28:42,333 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\services\\mailer.py', reloading
+2025-09-06 10:28:42,373 [INFO]  * Restarting with stat
+2025-09-06 10:59:40,328 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-06 10:59:40,329 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-06 10:59:40,330 [INFO]  * Restarting with stat
+2025-09-06 10:59:40,777 [WARNING]  * Debugger is active!
+2025-09-06 10:59:40,781 [INFO]  * Debugger PIN: 686-812-825
+2025-09-06 11:02:01,680 [INFO] 127.0.0.1 - - [06/Sep/2025 11:02:01] "[35m[1mPOST /account HTTP/1.1[0m" 201 -
+2025-09-06 11:11:49,581 [ERROR] Error creating account: database is locked
+2025-09-06 11:11:49,582 [INFO] 127.0.0.1 - - [06/Sep/2025 11:11:49] "[35m[1mPOST /account HTTP/1.1[0m" 500 -
+2025-09-06 11:12:17,248 [ERROR] Error creating account: database is locked
+2025-09-06 11:12:17,249 [INFO] 127.0.0.1 - - [06/Sep/2025 11:12:17] "[35m[1mPOST /account HTTP/1.1[0m" 500 -
+2025-09-06 11:12:32,499 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-06 11:12:32,499 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-06 11:12:32,500 [INFO]  * Restarting with stat
+2025-09-06 11:12:32,961 [WARNING]  * Debugger is active!
+2025-09-06 11:12:32,963 [INFO]  * Debugger PIN: 686-812-825
+2025-09-06 11:13:53,258 [ERROR] Error creating account: database is locked
+2025-09-06 11:13:53,259 [INFO] 127.0.0.1 - - [06/Sep/2025 11:13:53] "[35m[1mPOST /account HTTP/1.1[0m" 500 -
+2025-09-06 11:17:37,367 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\database\\db.py', reloading
+2025-09-06 11:17:37,374 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\database\\db.py', reloading
+2025-09-06 11:17:37,427 [INFO]  * Restarting with stat
+2025-09-06 11:17:37,441 [INFO]  * Restarting with stat
+2025-09-06 11:17:37,947 [WARNING]  * Debugger is active!
+2025-09-06 11:17:37,949 [INFO]  * Debugger PIN: 686-812-825
+2025-09-06 11:17:38,062 [WARNING]  * Debugger is active!
+2025-09-06 11:17:38,065 [INFO]  * Debugger PIN: 686-812-825
+2025-09-06 11:17:42,239 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\database\\db.py', reloading
+2025-09-06 11:17:42,278 [INFO]  * Restarting with stat
+2025-09-06 11:17:42,335 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\database\\db.py', reloading
+2025-09-06 11:17:42,384 [INFO]  * Restarting with stat
+2025-09-06 11:17:42,755 [WARNING]  * Debugger is active!
+2025-09-06 11:17:42,757 [INFO]  * Debugger PIN: 686-812-825
+2025-09-06 11:17:42,862 [WARNING]  * Debugger is active!
+2025-09-06 11:17:42,864 [INFO]  * Debugger PIN: 686-812-825
+2025-09-06 11:18:38,685 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-06 11:18:38,685 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-06 11:18:38,686 [INFO]  * Restarting with stat
+2025-09-06 11:18:39,137 [WARNING]  * Debugger is active!
+2025-09-06 11:18:39,139 [INFO]  * Debugger PIN: 686-812-825
+2025-09-06 11:19:19,572 [ERROR] Error creating account: database is locked
+2025-09-06 11:19:19,572 [INFO] 127.0.0.1 - - [06/Sep/2025 11:19:19] "[35m[1mPOST /account HTTP/1.1[0m" 500 -
+2025-09-06 11:20:11,464 [ERROR] Error creating account: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-09-06 11:20:11,464 [INFO] 127.0.0.1 - - [06/Sep/2025 11:20:11] "[35m[1mPOST /account HTTP/1.1[0m" 500 -
+2025-09-06 11:20:18,434 [ERROR] Error creating account: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-09-06 11:20:18,434 [INFO] 127.0.0.1 - - [06/Sep/2025 11:20:18] "[35m[1mPOST /account HTTP/1.1[0m" 500 -
+2025-09-06 11:20:34,397 [ERROR] Error creating account: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-09-06 11:20:34,397 [INFO] 127.0.0.1 - - [06/Sep/2025 11:20:34] "[35m[1mPOST /account HTTP/1.1[0m" 500 -
+2025-09-06 11:20:35,471 [ERROR] Error creating account: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-09-06 11:20:35,472 [INFO] 127.0.0.1 - - [06/Sep/2025 11:20:35] "[35m[1mPOST /account HTTP/1.1[0m" 500 -
+2025-09-06 11:20:36,142 [ERROR] Error creating account: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-09-06 11:20:36,143 [INFO] 127.0.0.1 - - [06/Sep/2025 11:20:36] "[35m[1mPOST /account HTTP/1.1[0m" 500 -
+2025-09-06 11:22:08,991 [ERROR] Error creating account: database is locked
+2025-09-06 11:22:08,992 [INFO] 127.0.0.1 - - [06/Sep/2025 11:22:08] "[35m[1mPOST /account HTTP/1.1[0m" 500 -
+2025-09-06 11:24:09,945 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\database\\db.py', reloading
+2025-09-06 11:24:09,952 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\database\\db.py', reloading
+2025-09-06 11:24:10,002 [INFO]  * Restarting with stat
+2025-09-06 11:24:10,006 [INFO]  * Restarting with stat
+2025-09-06 11:24:10,609 [WARNING]  * Debugger is active!
+2025-09-06 11:24:10,612 [INFO]  * Debugger PIN: 686-812-825
+2025-09-06 11:24:10,633 [WARNING]  * Debugger is active!
+2025-09-06 11:24:10,636 [INFO]  * Debugger PIN: 686-812-825
+2025-09-06 11:24:22,278 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\database\\db.py', reloading
+2025-09-06 11:24:22,282 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\database\\db.py', reloading
+2025-09-06 11:24:22,335 [INFO]  * Restarting with stat
+2025-09-06 11:24:22,335 [INFO]  * Restarting with stat
+2025-09-06 11:24:22,906 [WARNING]  * Debugger is active!
+2025-09-06 11:24:22,909 [INFO]  * Debugger PIN: 686-812-825
+2025-09-06 11:24:22,917 [WARNING]  * Debugger is active!
+2025-09-06 11:24:22,920 [INFO]  * Debugger PIN: 686-812-825
+2025-09-06 11:24:24,045 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\database\\db.py', reloading
+2025-09-06 11:24:24,061 [INFO]  * Detected change in 'C:\\Users\\mmazharu\\account_app\\database\\db.py', reloading
+2025-09-06 11:24:24,106 [INFO]  * Restarting with stat
+2025-09-06 11:24:24,120 [INFO]  * Restarting with stat
