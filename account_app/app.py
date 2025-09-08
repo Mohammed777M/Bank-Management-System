@@ -1,114 +1,122 @@
-from flask import Flask, jsonify, request # type: ignore
-from models.account import (
-    create_account,
-    get_accounts,
-    get_account_by_id,
-    update_account,
-    delete_account
+"""
+Flask-based Account API with CRUD operations.
+
+This demo uses an in-memory dictionary as a database. 
+Includes logging and exception handling at both local
+and global levels.
+"""
+
+import logging
+from flask import Flask, request, jsonify
+
+# ---------------- Logging Setup ----------------
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
 )
-from services.balance_calculator import calculate_total_balance_threaded
-from services.interest_scraper import fetch_interest_rates  # import scraper module
-from services.mailer import send_email_notification
+logger = logging.getLogger(__name__)
 
-
+# ---------------- Flask App ----------------
 app = Flask(__name__)
 
-# Create Account
-@app.route('/accounts', methods=['POST'])
-def create_account_route():
+# In-memory "database"
+accounts = {}
+
+
+# ---------------- Routes ----------------
+@app.route("/")
+def home():
+    """Welcome route."""
+    return jsonify({"message": "Welcome to Account API"}), 200
+
+
+@app.route("/create", methods=["POST"])
+def create_account():
+    """Create a new account with logging and error handling."""
     try:
         data = request.get_json()
-        name = data.get('name')
-        number = data.get('number')
-        balance = data.get('balance')
+        if not data:
+            return jsonify({"error": "No input data provided"}), 400
+
+        account_number = data.get("number")
+        if not account_number:
+            return jsonify({"error": "Account number is required"}), 400
+
+        if account_number in accounts:
+            return jsonify({"error": "Account already exists"}), 400
+
+        accounts[account_number] = {
+            "name": data.get("name"),
+            "balance": data.get("balance", 0),
+        }
+
+        logger.info("Created account %s for %s", account_number, data.get("name"))
+        return jsonify({"message": "Account created successfully"}), 201
+    except Exception as exc:  # Catch unexpected errors
+        logger.exception("Error in create_account: %s", exc)
+        return jsonify({"error": "Internal Server Error"}), 500
 
 
-        if not all([name, number, balance is not None]):
-            return jsonify({"error": "Missing required fields"}), 400
-
-        account_id = create_account(name, number, balance)
-
-        # Send email notification (make sure send_email_notification takes recipient email if needed)
-        recipient_email = "recipient@example.com"  # Replace with actual email logic
-        send_email_notification(name, number, balance, recipient_email)
-
-        return jsonify({"message": "Account created", "id": account_id}), 201
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-# Get all accounts
-@app.route('/accounts', methods=['GET'])
-def get_accounts_route():
+@app.route("/read/<string:number>", methods=["GET"])
+def read_account(number):
+    """Read account details by number."""
     try:
-        accounts = get_accounts()
-        return jsonify(accounts), 200
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        account = accounts.get(number)
+        if not account:
+            return jsonify({"error": "Account not found"}), 404
+        return jsonify({"account": account}), 200
+    except Exception as exc:
+        logger.exception("Error in read_account: %s", exc)
+        return jsonify({"error": "Internal Server Error"}), 500
 
-# Get account by ID
-@app.route('/accounts/<int:account_id>', methods=['GET'])
-def get_account_route(account_id):
-    account = get_account_by_id(account_id)
-    if account:
-        return jsonify(account), 200
-    return jsonify({"error": "Account not found"}), 404
 
-# Update account
-@app.route('/accounts/<int:account_id>', methods=['PUT'])
-def update_account_route(account_id):
-    data = request.get_json()
-    name = data.get('name')
-    number = data.get('number')
-    balance = data.get('balance')
-    if not all([name, number, balance is not None]):
-        return jsonify({"error": "Missing required fields"}), 400
-
-    updated = update_account(account_id, name, number, balance)
-    if updated:
-        return jsonify({"message": "Account updated"}), 200
-    return jsonify({"error": "Account not found"}), 404
-
-# Delete account
-@app.route('/accounts/<int:account_id>', methods=['DELETE'])
-def delete_account_route(account_id):
-    deleted = delete_account(account_id)
-    if deleted:
-        return jsonify({"message": "Account deleted"}), 200
-    return jsonify({"error": "Account not found"}), 404
-
-# Total balance - multi-threaded calculation
-@app.route('/total-balance', methods=['GET'])
-def total_balance_route():
+@app.route("/update/<string:number>", methods=["PUT"])
+def update_account(number):
+    """Update account details."""
     try:
-        total = calculate_total_balance_threaded()
-        return jsonify({'total_balance': total}), 200
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        data = request.get_json()
+        if not data:
+            return jsonify({"error": "No input data provided"}), 400
 
-# Scrape interest rates
+        account = accounts.get(number)
+        if not account:
+            return jsonify({"error": "Account not found"}), 404
 
-@app.route('/interest-rates', methods=['GET'])
-def interest_rate_route():
-    rates = fetch_interest_rates()
-    if rates:
-        return jsonify({"interest_rates": rates}), 200
-    else:
-        return jsonify({"error": "Unable to fetch interest rates"}), 500
-    
-@app.route('/register', methods=['POST'])
-def register_user():
-    # Assume registration logic here...
-    
-    # Send welcome email
-    send_email_notification(
-        "user@example.com",
-        "Welcome!",
-        "Thank you for registering with us."
-    )
-    
-    return jsonify({"message": "User registered and email sent"})
+        # Update fields
+        account["name"] = data.get("name", account["name"])
+        account["balance"] = data.get("balance", account["balance"])
+
+        accounts[number] = account
+        logger.info("Updated account %s", number)
+        return jsonify({"message": "Account updated successfully"}), 200
+    except Exception as exc:
+        logger.exception("Error in update_account: %s", exc)
+        return jsonify({"error": "Internal Server Error"}), 500
 
 
+@app.route("/delete/<string:number>", methods=["DELETE"])
+def delete_account(number):
+    """Delete an account by number."""
+    try:
+        if number not in accounts:
+            return jsonify({"error": "Account not found"}), 404
 
-if __name__ == '__main__':
+        del accounts[number]
+        logger.info("Deleted account %s", number)
+        return jsonify({"message": "Account deleted successfully"}), 200
+    except Exception as exc:
+        logger.exception("Error in delete_account: %s", exc)
+        return jsonify({"error": "Internal Server Error"}), 500
+
+
+# ---------------- Global Error Handler ----------------
+@app.errorhandler(Exception)
+def handle_exception(error):
+    """Global exception handler for unhandled errors."""
+    logger.exception("Unhandled exception: %s", error)
+    return jsonify({"error": "Something went wrong. Please try again later."}), 500
+
+
+# ---------------- Main Entry ----------------
+if __name__ == "__main__":
     app.run(debug=True)
